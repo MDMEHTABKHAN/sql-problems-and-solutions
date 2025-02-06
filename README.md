@@ -11,7 +11,7 @@ The problems in this repository are based on the following table structure:
 
 | Column Name  | Data Type         | Constraints                      | Description                           |
 |-------------|------------------|---------------------------------|---------------------------------------|
-| EmployeeID  | SERIAL           | PRIMARY KEY                     | Unique ID for each employee          |
+| EmployeeID  | INT              | PRIMARY KEY                     | Unique ID for each employee          |
 | FirstName   | VARCHAR(50)      | NOT NULL                         | First name of the employee           |
 | LastName    | VARCHAR(50)      | NOT NULL                         | Last name of the employee            |
 | Email       | VARCHAR(100)     | UNIQUE, NOT NULL                 | Email address (must be unique)       |
